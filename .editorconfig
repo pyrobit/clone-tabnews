@@ -1,0 +1,7 @@
+root = true
+# Indetation set for javascript standard uses 2 spaces
+
+[*]
+indent_style = space
+indent_size = 2
+
