@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>All your bases are belong to uS</h1>;
+  return <h1>All your bases are belong to US</h1>;
 }
 
 function test() {
