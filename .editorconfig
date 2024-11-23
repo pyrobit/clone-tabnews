@@ -1,7 +1,17 @@
 root = true
-# Indetation set for javascript standard uses 2 spaces
 
 [*]
 indent_style = space
 indent_size = 2
 
+# # Indetation set for javascript standard uses 2 spaces
+# [lib/**.js]
+# indent_style = space
+# indent_size = 2
+
+
+
+# # 4 space indentation
+# [*.py]
+# indent_style = space
+# indent_size = 4
