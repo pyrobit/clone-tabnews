@@ -21,7 +21,3 @@ test("GET to /api/v1/status should return 200", async () => {
   expect(responseBody).not.toHaveProperty("password");
   expect(responseBody).not.toHaveProperty("email");
 });
-
-// test.only("SQL Injection Test", async () => {
-//   await fetch("http://0.0.0.0:3000/api/v1/status?databaseName=local_p0stgres");
-// });
