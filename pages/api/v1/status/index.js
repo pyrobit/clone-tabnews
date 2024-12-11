@@ -9,7 +9,7 @@ async function status(request, response) {
   const databaseVersionValue = postgresVersionResponse.rows[0].server_version;
 
   const databaseMaxConnectionsresult = await database.query(
-    "SHOW max_connections;"
+    "SHOW max_connections;",
   );
   const databaseMaxConnectionsValue =
     databaseMaxConnectionsresult.rows[0].max_connections;
