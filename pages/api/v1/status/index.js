@@ -1,7 +1,5 @@
 import database from "infra/database";
 
-// controller (MVC)
-
 async function status(request, response) {
   const updatedAt = new Date().toISOString();
 
